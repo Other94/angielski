@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/myLinear"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/textEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="english" />
+
+    <TextView
+        android:id="@+id/textPl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="2" />
+
+    <ImageButton
+        android:id="@+id/myImageButton"
+        android:layout_width="5dp"
+        android:layout_height="19dp"
+        android:layout_weight="0.3"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/music_icon" />
+
+
+</LinearLayout>
